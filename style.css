@@ -30,21 +30,7 @@ nav{
     font-weight: bolder;
     font-size: larger;
 }
-/* ul{
-    display: flex;
-}
-ul li{
-    list-style: none;
-    padding: 0px 20px;
-    font-size: 20px;
-}
-ul li a{
-    text-decoration: none;
-    color: wheat;
-}
-ul >li >a:hover{
-    color: aqua;
-} */
+
 .logo{
     margin-top: 5px;
 }
