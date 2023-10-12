@@ -39,10 +39,7 @@ Submitbtn.addEventListener("click", async (e)=>{
       str = str + `<div> ${key}: ${result[key]}</div>`
     }
 
-    // else{
-    //   str = 
-    // }
-
+ 
     console.log(str)
     resultCont.innerHTML = str
   
