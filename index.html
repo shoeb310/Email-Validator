@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img class="img" src="/img/logo.svg" alt="">
+            </div>
+
+
+            <div class="title">CHECKMAIL</div>
+        <!-- <ul>
+            <li><a href="http://">Home</a></li>
+            <li><a href="http://">About</a></li>
+            <li><a href="http://">Contact</a></li>
+            <li></li>
+        </ul> -->
+
+    </nav>
+
+    <main>
+        <div class="container">
+            <h1>Enter your email to validate</h1>
+
+            <form action="/submit" method="post">
+                <!-- Text input for username -->
+                <div class="inputbox">
+                <label for="username"></label>
+                <input  type="text" id="username"  placeholder="Enter Your Email to Validate" name="username" required>
+                </div>
+                <br><br>
+
+<!--             
+                Password input
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+            
+                Radio buttons for gender
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <br><br> -->
+            
+                <!-- Submit button -->
+                <input id="Submitbtn" class="btn" type="submit" value="Submit">
+              </form>
+        </div>
+
+        <div  class="Res">
+            <h2>YOUR RESULT</h2>
+            <div id="resultCont">
+                
+                <img class="load" width="80px"  src="img/Spinner-1s-200px (2).svg" alt="">
+            </div>
+
+        </div>
+
+    </main>
+        <footer>
+          Copyright|checkmail.com|All rights reserved
+        </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

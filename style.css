@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@500&display=swap');
+*{
+    font-family: 'Orbitron', sans-serif;
+font-family: 'Poppins', sans-serif;
+padding: 0%;
+margin: 0%;
+}
+main{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 13%, rgba(58,9,121,1) 67%, rgba(175,0,255,1) 100%);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background: black;
+    color: wheat;
+    padding: 19px 15px;
+}
+.title{
+    margin: 0px 10px;
+    font-weight: bolder;
+    font-size: larger;
+}
+/* ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: wheat;
+}
+ul >li >a:hover{
+    color: aqua;
+} */
+.logo{
+    margin-top: 5px;
+}
+.logo img{
+
+    width: 30px;
+    filter: invert(1);
+    
+}
+
+footer{
+    background: #000;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    height: 50px;
+}
+
+.container{
+    position: relative;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    width: 550px;
+    height: 600px;
+    top: 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Res{
+    position: relative;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    width: 550px;
+    height: 600px;
+    margin: 10%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.container h1{
+padding: 12px 0px;
+color: #fff;
+}
+
+#resultCont div::first-letter{
+    text-transform: uppercase;
+}
+
+.inputbox{
+    position: relative;
+    border-bottom: 2px solid #fff;
+}
+
+
+input[type='text']{
+    min-width: 23vw;
+    padding: 3px 12px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+.btn{
+    background: #000;
+    border-radius: 5px;
+    padding: 9px 12px;
+    border: 2px solid grey;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background: white;
+    color: #000;
+}
+@media only screen and (max-width : 600px) {
+    body{
+        background-color: rgb(132, 202, 225);
+    }
+    .container{
+        font-size: 1rem;
+    }
+    nav{
+        flex-direction: column;
+        
+    }
+    .logo{
+        padding: 12px 0px;
+        
+    }
+    .logo img{
+        
+        width: 20px;
+        filter: invert(1);
+        
+    }
+
+}
